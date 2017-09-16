@@ -1,0 +1,80 @@
+
+
+.col-8,
+.col-4 {
+  float: left;
+}
+
+.col-4 {
+  width: 40%;
+  margin-right: 1.5%;
+}
+
+.col-8 {
+  width: 55%;
+  margin-left: 1.5%;
+}
+
+.col-3 {
+  float: left;
+  width: 23%;
+  text-align: center;
+  background-color: lightgray;
+  margin: 1%;
+  height: 100px;
+  vertical-align: middle;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.panel-title {
+  text-align: center;
+  background-color: lightgray;
+  height: 30px;
+}
+
+strong {
+  margin-bottom: 1%;
+  margin-left: 3%;
+}
+
+input {
+  width: 90%;
+  margin-left: 3%;
+}
+
+.btn {
+  width: 90%;
+  background-color: #3a7bd5;
+  color: white;
+  margin: 1% 0 3% 3%;
+}
+
+.header-border {
+  margin-left: 1.5%;
+  color: white;
+  padding-bottom: 1%;
+  border-bottom:2px solid white;
+  margin-bottom: 3%;
+  margin-right: 3%;
+}
+
+.response {
+  margin: 1%;
+  background-color: lightgreen;
+  font-weight: bold;
+  color: darkgreen;
+}
+
+h4 {
+  font-weight: bold;
+}
